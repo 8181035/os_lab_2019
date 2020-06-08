@@ -18,4 +18,3 @@ udp_server: udpserver.c
 
 clean:
 	rm *.out *.o -f
-	clear
