@@ -1,8 +1,8 @@
-all: tcp_app udp_app
+all: tcp udp
 
-tcp_app: tcp_client tcp_server
+tcp: tcp_client tcp_server
 
-udp_app: udp_client udp_server
+udp: udp_client udp_server
 
 tcp_client: tcpclient.c
 	gcc -o tcpclient.out tcpclient.c
